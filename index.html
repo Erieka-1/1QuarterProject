@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Q1 PROJECT </title>
+	<style>
+		body{
+			background-color: #6f4685;
+			font-family: gill sans;
+			margin:0;
+			padding: 0;
+			color: #fff;
+		 }
+		 header{
+		 	background-color: #6f4685;
+		 	color: white;
+		 	display: flex;
+		 	align-items: center;
+		 	justify-content: space-between;
+		 	padding: 15px 60px;
+		 	top: 0;
+		 	z-index: 1000;
+		 	position: sticky;
+		 }
+		 .logo{
+		 	height: 50px;
+		 	width: 50px;
+		 	cursor: pointer;
+		  }
+		  nav{ 
+		  	display:flex;
+		  	gap: 30px;
+		   }
+
+		   nav a{ 
+		   	color:white;
+		   	text-decoration: none;
+		   	font-size: 18px;
+		   	font-weight: 500;
+		    }
+		    nav a:hover{ 
+		    	color: #d8b4fe 
+		    }
+		    section{ 
+		    	height:80vh;
+		    	display: flex;
+		    	flex-direction: column;
+		    	justify-content: center;
+		    	align-items: center;
+		    	text-align: center;
+		    	padding: 60px 20px;
+		     }
+		     #home{ 
+		     	background: linear-gradient(to bottom right, #a855f7, #6a0dad);
+		        color:white;
+		      }
+		      #about{ 
+		      	background-color:#f3e8ff;
+		      	color: #333;
+		       }
+		       #works{ 
+		       	background-color:#e9d5ff;
+		       	color: #333;
+		        }
+		        #contact{ 
+		        	background-color: #ede9fe;
+		        	color: #333;
+		         }
+
+		         h1{ 
+		         	margin-bottom:20px;
+		         	font-size: 2.5rem;
+		          }
+
+		          p{ 
+		          	max-width:600px;
+		          	line-height: 1.6;
+		           }
+		           input,select,textarea,button{
+			width: 100%;
+			padding: 8px;
+			margin-bottom: 15px;
+			border: 1px, solid #ccc;
+			border-radius: 5px;
+			font-size: 14px;
+
+		}
+		.option-label{
+			display: inline-flex;
+			align-items: center;
+			margin-right: 10px;
+			font-weight: normal;
+
+		}
+
+		 }
+		.option-label input{
+			margin-right: 5px;
+			width: auto;
+		}
+		input[type="submit"],
+		button{
+			background: white;
+			color: darkgray;
+			cursor: pointer;
+			border: none;
+			transition: background 0.3s;
+
+		}
+		input[type="submit"]:hover,
+
+		button:hover{
+			background: mediumpurple;
+		} 
+		.form-buttons{
+			display: flex;
+			justify-content: space-between;
+			gap:10px;
+
+		}
+		.form-container{
+			background-color: #c9a0dc;
+			padding: 20px 30px;
+			border-radius: 12px;
+			width: 100%;
+			max-width: 450px;
+
+
+</style>
+</head>
+<body>
+  
+  <header>
+  	<img src="Logo_ICT.jpg" alt="Personal logo" class="logo">
+
+  	<nav>
+  		<a href="#home">HOME</a>
+  		<a href="#about">ABOUT</a>
+  		<a href="#works">WORKS</a>
+  		<a href="#contact">CONTACT</a>
+  	</nav>
+  </header>
+  
+<section id="home">
+	<h1>WELCOME TO MY PORTFOLIO!</h1>
+	<p>Hi! I am Pauline Erieka E. Chu Tan from 9-Emerald. If you are interested in getting to know me, scroll down and find out more about me and my coding skills! </p>
+</section>
+
+<section id="about">
+	<h1>About Me</h1>
+	<img src="myprofile.jpg" class="about_photo">
+<p>I am a student from OBMC AN and I am in the 9th Grade. I am just a beginner to the whole coding world and I hope to learn more. </p>
+
+<h2>My Hobbies</h2>
+<ol>
+	<li>Volleyball</li>
+	<li>Badminton</li>
+	<li>Cooking</li>
+	<li>Solving the cube</li>
+	<li>Math</li>
+	<li>Singing</li>
+	<li>Eating</li>
+</ol>
+</section>
+
+ <section id="works">
+ 	<h1>My Personal Works</h1>
+ 	<p>Here are some of my projects in school that can show my skills in coding.</p>
+
+ 	<div class= "works">
+
+  <p><a href="https://drive.google.com/file/d/1zNRHdB6ZjbZ3mq-y2gijE--1rZjcW1gz/view?usp=drive_link" target="_blank">
+  Form Sample</a></p>
+
+
+  <p><a href="https://drive.google.com/file/d/1tF_H_TcVqG6Zvvap8AA7Wtz9VkplB54c/view?usp=drive_link" target="_blank">
+ Slambook</a></p>
+
+  <p><a href="https://drive.google.com/file/d/1QDIC3KRS9OKtHqRZDNJiIeYSIpVBq0Pj/view?usp=drive_link" target="_blank">
+  Applications</a></p>
+
+
+ 	</div>
+ </section>
+
+ <section id="contact">
+ 	<h1>Contact Me</h1>
+<p>If you are interested to get in touch with me, please fill out the form below.</p>
+
+<div class="form-container">
+	<h2>CONTACT ME</h2>
+	<form>
+		<label for="text">Full Name</label>
+		<input type="text" id="text" name="text">
+
+		<label for="text">Email</label>
+		<input type="text" id="text" name="text">
+
+		<label>How did you find me?</label>
+       
+			
+		<label class="option-label"> <input type="radio" id="option1" name="radio" value="Friends">Friends</label>
+
+		<label class="option-label"> <input type="radio" id="option2" name="radio" value="Social Media">Social Media</label>
+
+		<label class="option-label"> <input type="radio" id="option3" name="radio" value="Google">Google</label>
+
+
+		<label>Services Interested in</label>
+
+	    <label class="option-label"><input type="checkbox" id="box1" name="checkbox" value="Coding">Coding</label>
+
+        <label class="option-label"><input type="checkbox" id="box1" name="checkbox" value="Designing">Desgning</label>
+
+         <label class="option-label"><input type="checkbox" id="box1" name="checkbox" value="others">others</label><b>
+
+         <b><label for="Dropdown"> Rate My Portfolio</label>
+			<select id="dropdown" name="dropdown"> 
+				<option value="option1">5</option>
+				<option value="option2">5</option>
+				<option value="option3">5</option>
+			</select><b>
+
+	      <label for="textarea">Any more feedback?</label>
+			<textarea id="textarea" name="textarea" rows="5"></textarea>
+
+			<div class="form-buttons"> 
+				<button type="submit" value="Submit Form">Submit Form</button>
+				
+			</div>
+
+
+	</form>
+ </section>
+
+  </div>
+</body>
+</html>
